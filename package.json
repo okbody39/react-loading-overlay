@@ -10,7 +10,7 @@
     "transition",
     "spinner"
   ],
-  "main": "lib/LoadingOverlay.js",
+  "main": "src/LoadingOverlay.js",
   "scripts": {
     "build": "npm run build-cjs && npm run build-es6 && rimraf umd && npm run build-umd && npm run build-min",
     "build-cjs": "rimraf lib && babel ./src -d lib",
